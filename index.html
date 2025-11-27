@@ -10,19 +10,28 @@
     <h1>Clics Challenge</h1>
     <label>Durée(s)</label>
     <input id="duration" type="number" min="3" max="120">
-    <button>Start</button>
-    <button>Reset</button>
+
+    <!-- Add IDs here -->
+    <button id="buttonStart">Start</button>
+    <button id="buttonReset">Reset</button>
+
     <section class="stats">
-        <p>Temps restant:<span id="time">10</span>s
-        Score:<span id="score">0</span>
-        CPS:<span id="cps">0.00</span></p>
-
-
+        <p>
+          Temps restant: <span id="time">10</span>s
+          Score: <span id="score">0</span>
+          CPS: <span id="cps">0.00</span>
+        </p>
     </section>
+
     <section class="game">
-        <button>Punch it🥊</button>
+        <!-- Add ID here -->
+        <button id="punchbutton">Punch it🥊</button>
     </section>
-    <section class="best">Best Score:<span id="best">0</span></section>
+
+    <section class="best">
+        Best Score: <span id="best">0</span>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
