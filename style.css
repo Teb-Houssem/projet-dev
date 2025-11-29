@@ -1,0 +1,114 @@
+/* General page styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1a1a1a, #333);
+  color: #f5f5f5;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  color: #ff4444;
+  text-shadow: 2px 2px 6px black;
+  margin-top: 20px;
+  padding: 60px;
+  font-size: 48px;
+  background-image: url("punched.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+label {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #ff4444;
+  background: #222;
+  color: #fff;
+  width: 80px;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+
+#buttonStart {
+  background: #dc3545;
+  color: black;
+}
+#buttonStart:hover {
+  background:#dc3545 ;
+  transform: scale(1.1);
+}
+
+#buttonReset {
+  background: #dc3545;
+  color: white;
+}
+#buttonReset:hover {
+  background: #c82333;
+  transform: scale(1.1);
+}
+
+.stats {
+  margin: 20px;
+  font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#punchbutton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding:40px;
+  font-size: 70px;
+}
+#punchImage {
+  transition: transform 0.1s ease;
+}
+#punchbutton:active #punchImage {
+  transform: scale(0.9);
+}
+
+
+#punchbutton:active {
+  transform: scale(0.9);
+  box-shadow: 0 0 40px #ff0000;
+  background: radial-gradient(circle, #ff0000 40%, #660000 100%);
+  border-radius:60px ;
+}
+
+.best {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 4px black;
+}
+#punchImage {
+  transition: transform 0.5s ease;
+}
+#punchbutton:active #punchImage {
+  transform: scale(1);
+}
